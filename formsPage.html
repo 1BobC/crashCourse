@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+</head>
+<body>
+    <a href="index.html">netninja Crash Course in html and css</a>
+    <h1>HTML Forms Page</h1>
+<!--create username input form-->
+    <form action="">
+        <label for="userName">Enter your username please.</label>
+        <input type="text" id="userName" name="userName" placeholder="Your user name:" required>
+        <br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id= "email" name="email" placeholder="Your email:" required>
+        <br><br>
+        <label for="password">Enter your password:</label>
+        <input type="password" id="password" name="password" placeholder="Choose a password:" required>    
+
+    <p>Select your age</p>
+    <input type="radio" name="age" value="0-30" id="option-1">
+    <label for="option-1">0 to 30</label>
+    
+    <input type="radio" name="age" value="31-60" id="option-2">
+    <label for="option-2">31 to 60</label>
+    
+    <input type="radio" name="age" value="61+" id="option-3">
+    <label for="option-3">61 and over</label>
+
+    <br><br>
+
+    <label for="question">Security questions:</label>
+    <select name="question" id="question">
+        <option value="q1">Choose a security question:</option>
+        <option value="q2">What colour traffic light is stop?</option>
+        <option value="q3">Which planet do you come from?</option>
+        <option value="q4">Are you a believer?</option>
+    </select>
+    <br><br>
+    <label for="answer">Your security answer:</label>
+    <input type="text" id="answer" name="answer">
+    <br><br>
+    <label for="bio">Enter your bio...</label>
+    <br>
+    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio..."></textarea>
+    <br><br>
+    <input type="submit" value="submit the form">
+
+</form>
+</body>
+</html>
