@@ -1,0 +1,50 @@
+/* Juss checkin the comment symbol */
+span{
+    display: inline-block; 
+    margin: 20px;
+    padding: 20px;
+}
+div{
+    /* display: inline; */
+    border: 2px solid crimson;
+    background-color: darkmagenta;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+
+/* h1 {
+    color: purple;
+    background-color: salmon;
+    font-size: 15px;             
+    font-family: arial;  see w3schools CSS web safe font combinations
+    text-align: center;
+    text-decoration: underline;
+    }
+h2 {
+    color: purple;
+}
+
+p {
+    color: slategrey;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 50px;
+}
+ul {
+    text-align: center; */
+    /* border-width: 4px;
+    border-style: dashed;
+    border-color: salmon; */
+    /* border: 4px dotted crimson;    or all in one command */
+    /* border-bottom: 4px dotted #753768;  or seperate border style/ color 
+}
+li {
+    list-style-type: none;
+    text-shadow: 2px 2px #753d86;
+} */
+
