@@ -1,20 +1,74 @@
 /* Juss checkin the comment symbol */
-span{
+
+/* #6 exercises html semantic tags eg main section article aside header footer*/
+/* see mario files for this project */
+
+/* #5 exercises */
+/* .error{
+    color: #2b2426;
+}
+p.error{
+    color: #d6681e;
+}
+p.success{
+    color: #1e90ff;
+}
+p.success.feedback{ */
+        /* color: #1e90ff;      color already specified in p.error !! */
+        /* border:2px dotted #1e90ff ;
+} */
+/* div .error{
+     color: #f10b3d;    and overides .error and p.error above 
+}
+div.error{
+    color: #1a0bf1;
+} */
+/* use attribute as selector */
+/* a[href= "https://www.thenetninja.co.uk"]{
+    background-color: #21b145;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;    
+} */
+/* see again shortened or selective, including pdf, versions  */
+/* inheritance from say div down to whatever div contains - ok */
+/* and now for selector specificity ??? */
+    /* div{
+        color: lightcoral;
+        border: 3px dashed brown;
+        margin: 30px;
+        font-weight: bold;
+    }
+    p{
+        border: inherit;
+        margin: inherit;
+    }
+    div.error{
+        text-align: center;
+    } */
+    /* see inheritance V specificity AGAIN */
+    /* see also https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade */
+
+
+
+/* #4 exercises */
+/* span{
     display: inline-block; 
     margin: 20px;
     padding: 20px;
 }
 div{
     /* display: inline; */
-    border: 2px solid crimson;
+    /* border: 2px solid crimson;
     background-color: darkmagenta;
     margin: 20px;
     padding: 20px;
-}
+} */ 
 
 
 
-
+/* #1 to #3 exercises */
 /* h1 {
     color: purple;
     background-color: salmon;
