@@ -59,6 +59,7 @@ nav li{
 }
 nav li a{
     color: lightslategrey;
+    text-decoration: none;
 }
 nav li a.join{
     color: #c92d2d;
@@ -109,4 +110,47 @@ footer p{
     color: white;
     padding: 10px;
     text-align: center;
+}
+/* pseudo classes - hover, focus and first child */
+nav li a:hover{
+    text-decoration: underline;
+    background-color:  #c92d2d;
+    padding: 3px;
+}
+nav li a.join:hover{
+    color: ivory;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    /* outline: none; */
+}
+form input:valid{
+    border: 4px solid #71d300;
+}
+/* nav li:first-child{              just an example
+    border: 3px solid #c92d2d;
+} */
+
+/* pseudo elements  */
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section.join p::first-letter{
+    font-size: 1.5em;
+}
+/* section.join */ p::selection{        /*now applies to all p */
+    background-color: #c92d2d;
+    color: #F4F4F4;
+}
+h2::selection{                          /*but not span */
+    background-color: #c92d2d;
+    color: #F4F4F4;
+}
+p::after{
+    content: ' more...';
 }
