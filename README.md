@@ -7,6 +7,6 @@
 "Complete HTML & CSS Crash Course tutorials #7 Developer Tools and #8 CSS Layout & Position for Marioclub webpage project"
 Ready to start on HTML & CSS Crash Course Tutprial #9
 But debug Join and form first!!!
-"Debug styleMario.CSS for Join Today and form position Ready to start on HTML & CSS Crash Course Tutorial #9 pseudo classes and elements"
-"HTML & CSS Crash Course Tutorial #9 pseudo classes and elements also look up and play around with 
-them on w3schools"
+"Debug styleMario.CSS for Join Today and form position Ready to start on HTML & CSS Crash Course Tutorial #9 ceudo classes and elements"
+"Complete tutorial number9 also look up and play around with them on w3 schools Ready for number10"
+

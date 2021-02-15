@@ -154,3 +154,7 @@ h2::selection{                          /*but not span */
 p::after{
     content: ' more...';
 }
+
+/* media queries and responsive design */
+/* moto e6plus screen 720x1560  px */
+/* use under 850px and under 450px */
