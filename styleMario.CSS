@@ -36,7 +36,7 @@ header h1{
     top: 30%;
 }
 .banner h2{
-    font-size: 48px;
+    font-size: 64px;
 }
 .banner h2 span{
     font-size: 1.3em;
@@ -158,3 +158,53 @@ p::after{
 /* media queries and responsive design */
 /* moto e6plus screen 720x1560  px */
 /* use under 850px and under 450px */
+
+@media screen and (max-width: 1300px){
+    .banner h2{
+       font-size: 54px;
+    } 
+    nav li{
+        font-size: 18px;
+    } 
+}
+@media screen and (max-width: 900px){
+    .banner .welcome h2{
+       font-size: 40px;
+    } 
+}
+@media screen and (max-width: 700px){
+    .banner .welcome{
+        position: relative;
+        text-align: center;
+        padding: 5px;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome h2{
+        font-size: 28px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    .images li{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 560px){
+    nav li{
+        width: 100%;
+        margin: 12px 0;
+        display: block;
+        font-size: 26px;
+        position: relative;
+    } 
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
+}

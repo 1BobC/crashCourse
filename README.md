@@ -9,4 +9,4 @@ Ready to start on HTML & CSS Crash Course Tutprial #9
 But debug Join and form first!!!
 "Debug styleMario.CSS for Join Today and form position Ready to start on HTML & CSS Crash Course Tutorial #9 ceudo classes and elements"
 "Complete tutorial number9 also look up and play around with them on w3 schools Ready for number10"
-
+"Added px: viewport dimensions by luke peters for reponsive design"
